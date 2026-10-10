@@ -1,0 +1,16 @@
+@layer tokens, base, layout, components, utilities;
+
+@import "tokens.css";
+@import "base.css";
+@import "layout.css";
+@import "components/header.css";
+@import "components/hero.css";
+@import "components/categories.css";
+@import "components/product-card.css";
+@import "components/carousel.css";
+@import "components/promo.css";
+@import "components/testimonial-card.css";
+@import "components/newsletter.css";
+@import "components/footer.css";
+@import "responsive.css";
+@import "utilities.css";

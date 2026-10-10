@@ -1,0 +1,23 @@
+@layer components {
+  .carousel {
+    max-width: 1476px;
+    margin-inline: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 1rem;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel__track {
+    display: flex;
+    gap: 4px;
+  }
+
+  .carousel__track > * {
+    scroll-snap-align: start;
+  }
+}

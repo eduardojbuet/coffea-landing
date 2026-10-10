@@ -1,0 +1,51 @@
+@layer components {
+  .header {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-white);
+    text-transform: lowercase;
+  }
+
+  .header__menu {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  .header__link {
+    font-family: var(--font-ui);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--color-white);
+    text-transform: uppercase;
+  }
+
+  .header__link--login {
+    font-weight: 600;
+  }
+
+  .header__search {
+    width: 61px;
+    height: 61px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+}

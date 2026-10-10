@@ -1,0 +1,45 @@
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-espresso);
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--color-espresso);
+    color: var(--color-white);
+    padding: 8px;
+    z-index: 100;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+}
